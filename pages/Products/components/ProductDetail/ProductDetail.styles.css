@@ -1,0 +1,37 @@
+.tech-section {
+  width: 100%;
+  padding: 34px 0 80px;
+
+  margin-top: 34px;
+  margin-bottom: 70px;
+
+  background-size: cover;
+  background-position: center;
+}
+
+.tech-content {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  display: flex;
+  gap: 42px;
+
+  align-items: center;
+}
+
+.tech-left img {
+  width: 320px;
+  height: 520px;
+
+  object-fit: cover;
+  display: block;
+}
+
+.tech-right img {
+  width: 790px;
+  height: auto;
+
+  display: block;
+}

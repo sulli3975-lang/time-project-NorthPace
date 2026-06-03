@@ -1,0 +1,31 @@
+.top-button {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+
+  width: 58px;
+  height: 58px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: rgba(0, 0, 0, 0.88);
+  color: white;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+  z-index: 999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.3s ease;
+}
+
+.top-button:hover {
+  transform: translateY(-4px);
+  background: black;
+}
